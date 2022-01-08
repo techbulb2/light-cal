@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(235, 190, 218);
+    margin: 0;
+}
+
+header {
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(156, 216, 235);
+    box-shadow: 0 5px 10px rgba(0,0,0, .5);
+
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.nav {
+    padding: 10px 30px;
+}
+
+.nav-right {
+    float: right;
+    height: 50px;
+    padding-bottom: 40px;
+}
+
+.nav a {
+    background-color: rgb(210, 245, 86);
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 8px;
+    text-transform: uppercase;
+}
+
+.main {
+    text-align: center;
+    margin-top: 23%;
+}
+
+span {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.links {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.links a {
+    background-color: rgb(210, 245, 86);
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 10px;
+}
+
+.image-container {
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.prices .links {
+    padding: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;    
+}
+
+p {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+
+.footer {
+    background-color: black;
+    color: whitesmoke;    
+    padding: 90px 35px;
+    margin-top: 25px;
+}
+
+.address .contact p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.col {
+    float: left;
+    width: 49%;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
